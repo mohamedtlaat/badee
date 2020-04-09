@@ -1,0 +1,156 @@
+body {
+    height: 5000px;
+}
+
+/* start Navbar */
+.head 
+{
+    background-color: #0C1E39;
+    height: 100vh;
+}
+.head .navbar-brand img
+{
+    width: 40%;
+}
+/* Start Our Product */
+.our-services
+{
+    background-color: #F2F2F2;
+    padding-bottom: 4%;
+    position: relative;
+}
+.our-services .box
+{
+    width: 1120px;
+    background-color: #FFF;
+    border-radius: 20px;
+    top: -4.5%;
+    position: absolute;
+}
+.our-services .box .vision h4
+{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.our-services .box p
+{
+    font-size: 20px;
+    color: #0C1E39;
+    font-weight: lighter;
+}
+.our-services .overlay
+{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-image: url(../images/BG-Icon.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.our-services .overlay .our
+{
+    padding-top: 30%;
+    margin-bottom: 6%;
+}
+.our-services .overlay .our span
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #4992CF;
+}
+.our-services .overlay .our .row h4{margin-top: 10px;}
+.our-services .overlay .our button
+{
+    margin-top: 4%;
+    width: 230px;
+    height: 65px;
+    background-color: #6EC59E - #4992CF;
+}
+.our-services .overlay .our button .arro{margin-left: 15px;}
+.our-services .overlay .product h3{margin-bottom: 4%;}
+.our-services .overlay .product .first .row .pro,
+.our-services .overlay .product .second .row .pro
+{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 30.4%;
+    margin-bottom: 30px;
+    margin-right: 33px;
+}
+.our-services .overlay .product .first .row .pro .kind,
+.our-services .overlay .product .second .row .pro .kind
+{
+    position: relative;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.our-services .overlay .product .first .row .pro .kind h5,
+.our-services .overlay .product .second .row .pro .kind h5
+{color: #0C1E39;}
+/************** End Our Product *************/
+
+/************** End Our Work *************/
+.our-work{ margin-top: 50px;}
+.our-work .row .first
+{
+    margin-top: 200px;
+}
+.our-work .row .project
+{
+    width: 90%;
+    height: 90%px;
+    margin-bottom: 40px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    position: relative;
+}
+.our-work .row .project img
+{
+    width: 100%;
+    padding: 60px;
+}
+.our-work .row .project .overlay
+{
+    position: absolute;
+    margin-left: 15px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 195px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(63, 61, 61, 0.7);
+    display: none;
+}
+.our-work .row .project:hover .overlay
+{
+    display: block;
+}
+
+/* Start Fram Work */
+.p-style 
+{
+    color: #0C1E39;
+}
+
+.line:before
+{
+    content: '';
+    display: inline-block;
+    width: 70px;
+    height: 4px;
+    background-color: #6EC59E;
+    border-radius: 2px;
+    margin-bottom: 8px;
+    margin-right: 35px;
+}
