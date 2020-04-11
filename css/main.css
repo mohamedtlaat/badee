@@ -1,105 +1,174 @@
-body {
-    height: 5000px;
-}
 
+body {position: relative;}
+/*************************************************************************/
+/************************** End Home Page ********************************/
+/*************************************************************************/
 /* start Navbar */
+body {position: relative;}
 .head 
 {
     background-color: #0C1E39;
-    height: 100vh;
+    height: auto;
+    position: relative;
 }
-.head .navbar-brand img
+.head .back
 {
-    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 0;    
 }
-/* Start Our Product */
+.mr-byme{margin-left: 190px;}
+.head .navbar-brand img{width: 40%;}
+.head .navbar .active{color: #6EC59E;}
+.head .intro
+{
+    padding-top: 20px;
+    padding-bottom: 140px;
+}
+.head .intro .row .left h3
+{
+    color: #FFF;
+    margin-bottom: 20px;
+}
+.head .intro .row .left h3 span
+{
+    color: #6EC59E;
+    font-size: 40px;
+}
+.head .intro .row .left p
+{
+    color: #FFF;
+    margin-bottom: 20px;
+}
+.head .box
+{
+    background-color: #FFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0px 20px 20px 0px;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* z-index: 999; */
+} 
+.head .box .row .vision h4
+{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #0C1E39;
+}
+.head .box p
+{
+    font-size: 17px;
+    color: #0C1E39;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 1.7;
+}
+@media (max-width: 991px) {     /* Mobile & tablet Rules */
+    .head .intro .row .left h3{font-size: 18px; font-weight: bold;}
+    .head .intro .row .left h3 span{font-size: 30px;}
+    .head .intro .row .left p{font-size: 16px;}
+    .mr-byme{margin-left: 0px;}
+}
+/****************************************************/
+/*************** Start Our Product *****************/
+/****************************************************/
 .our-services
 {
     background-color: #F2F2F2;
     padding-bottom: 4%;
     position: relative;
 }
-.our-services .box
+.our-services .back
 {
-    width: 1120px;
-    background-color: #FFF;
-    border-radius: 20px;
-    top: -4.5%;
     position: absolute;
+    right: 0;
+    top: 0;    
 }
-.our-services .box .vision h4
+.our-services .our
 {
-    margin-top: 25px;
-    margin-bottom: 30px;
-}
-.our-services .box p
-{
-    font-size: 20px;
-    color: #0C1E39;
-    font-weight: lighter;
-}
-.our-services .overlay
-{
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    background-image: url(../images/BG-Icon.png);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.our-services .overlay .our
-{
-    padding-top: 30%;
+    padding-top: 25%;
     margin-bottom: 6%;
 }
-.our-services .overlay .our span
+.our-services .our span
 {
     font-size: 30px;
     font-weight: bold;
     color: #4992CF;
 }
-.our-services .overlay .our .row h4{margin-top: 10px;}
-.our-services .overlay .our button
+.our-services .our .row h4{margin-top: 10px;}
+.our-services .our button
 {
     margin-top: 4%;
     width: 230px;
     height: 65px;
     background-color: #6EC59E - #4992CF;
 }
-.our-services .overlay .our button .arro{margin-left: 15px;}
-.our-services .overlay .product h3{margin-bottom: 4%;}
-.our-services .overlay .product .first .row .pro,
-.our-services .overlay .product .second .row .pro
+.our-services .our .words .first{font-size: 18px;}
+.our-services .our .words .second{font-size: 17.5px;}
+.our-services .our .words .third{font-size: 17.5px;}
+.our-services .our button .arro{margin-left: 15px;}
+.our-services .product h3{margin-bottom: 4%;}
+.our-services .product .bod
 {
-    background-color: #fff;
-    border-radius: 15px;
-    width: 30.4%;
+    background-color: #FFF;
+    border-radius: 18px;
     margin-bottom: 30px;
-    margin-right: 33px;
 }
-.our-services .overlay .product .first .row .pro .kind,
-.our-services .overlay .product .second .row .pro .kind
-{
-    position: relative;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+.our-services .product .bod{padding-left: 25px;}
+@media (max-width: 410px) {
+    .our-services .our .offer h3{font-size: 18px;}
+    .our-services .our .offer .line:before
+    {
+        content: '';
+        display: inline-block;
+        width: 35px;
+        height: 4px;
+        background-color: #6EC59E;
+        border-radius: 2px;
+        margin-bottom: 8px;
+        margin-right: 20px;
+    }
+    .our-services .our h4{font-size: 18px;}
+    .our-services .our p{font-size: 15px;}
+    .our-services .product .pro .bod .kind h5{font-size: 12px;}
+    .our-services .product h3{font-size: 20px;}
 }
-.our-services .overlay .product .first .row .pro .kind h5,
-.our-services .overlay .product .second .row .pro .kind h5
-{color: #0C1E39;}
+@media (min-width: 411px) and (max-width: 768px) {
+    .our-services .our h4{font-size: 17px; font-weight: bold;}
+    .our-services .our .words .second{font-size: 16px;}
+    .our-services .our .words .first{font-size: 14px; margin-bottom: 7px;}
+    .our-services .our .words .third{font-size: 16px;}
+    .our-services .our p{font-size: 16px;}
+    .our-services .product .pro .bod .kind h5{font-size: 15px;}
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+    .our-services .our .words .second
+    {
+        margin-bottom: 45px;
+        font-size: 18px;
+    }
+    .our-services .our .words .third
+    {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+}
 /************** End Our Product *************/
 
 /************** End Our Work *************/
-.our-work{ margin-top: 50px;}
-.our-work .row .first
+.our-work
 {
-    margin-top: 200px;
+    margin-top: 50px;
+    position: relative;
 }
+.our-work .back
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;    
+}
+.our-work .row .offer{margin-bottom: 25%;}
 .our-work .row .project
 {
     width: 90%;
@@ -107,42 +176,323 @@ body {
     margin-bottom: 40px;
     background-color: #F2F2F2;
     border-radius: 15px;
+    padding: 50px;
     position: relative;
-}
-.our-work .row .project img
-{
-    width: 100%;
-    padding: 60px;
+    text-align: center;
 }
 .our-work .row .project .overlay
 {
     position: absolute;
-    margin-left: 15px;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
+    border-radius: 15px;
     width: 100%;
     height: 100%;
-    font-size: 20px;
-    line-height: 195px;
     color: #FFF;
     font-weight: bold;
-    text-align: center;
-    background-color: rgba(63, 61, 61, 0.7);
+    background-color: rgba(112, 112, 112, 0.4);
     display: none;
 }
-.our-work .row .project:hover .overlay
+.our-work .row .project:hover .overlay{display: block;}
+.our-work .number
 {
-    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.our-work .number .step
+{
+    width: 80px;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 30px 0px 0px 30px;
+    background-image: linear-gradient(#6EC59E, #4992CF);
+    margin-bottom: 20px;
+}
+.our-work .number .step a
+{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+@media (max-width: 410px) {
+    .our-work .number .step
+    {
+        width: 25px;
+        padding-left: 10px;
+    }
+    .our-work .number .step a
+    {
+        font-size: 10px;
+    }
+    .our-work .offer h3{font-size: 18px;}
+    .our-work .line:before
+    {
+        content: '';
+        display: inline-block;
+        width: 30px;
+        height: 4px;
+        background-color: #6EC59E;
+        border-radius: 2px;
+        margin-bottom: 4px;
+        margin-right: 15px;
+    }
+    .our-work .row .offer{margin-bottom: 10%;}
+}
+@media (min-width: 411px) and (max-width: 768px) {
+    .our-work .number .step
+    {
+        width: 40px;
+        padding-left: 15px;
+    }
+    .our-work .number .step a
+    {
+        font-size: 15px;
+    }
+}
+/********************** Start Our Team ***************/
+.our-team
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F2F2F2;
+}
+.our-team p{color: #0C1E39; font-size: 17px;}
+/********************** End Our Team ****************/
+/********************** Start Our client ***************/
+.our-client
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #FFF;
+}
+.our-client p{color: #0C1E39; font-size: 17px;}
+/********************** End Our Team ****************/
+/********************** Start together ***************/
+.form
+{
+    background-color: #F2F2F2;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.form .offer h3
+{
+    color: #4992CF;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.form .offer p
+{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.form form input,
+.form form textarea
+{
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 35px;
+    border: none;
+}
+.form form button,
+.form form select
+{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 15px;
+}
+.form form select
+{
+    height: 70px;
+    margin-bottom: 20px;
+}
+.form form button .arro{margin-left: 20px;}
+@media (max-width: 767px) {
+    .form .offer p {font-size: 18px;}
+    .form .offer h3 {font-size: 25px;}
+    .form form button 
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
 }
 
+/********************** End together ***************/
+
+/***************** Start footer ********************/
+.footer
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0C1E39;
+}
+.footer .logo img{width: 60%;}
+.footer .some, .footer .social{margin-top: 50px;}
+.footer .some .info
+{
+    padding-left: 95px;
+    color: #FFF;
+}
+.footer p, .footer h5{color: #FFF;}
+.footer .social ul li
+{
+    background-image: linear-gradient(#6EC59E, #4992CF);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    list-style: none;
+    display: inline-block;  
+}
+.footer i{color: #FFF;}
+@media (max-width: 410px) {
+    .footer .minline:before
+    {
+        content: '';
+        display: inline-block;
+        width: 15px;
+        height: 4px;
+        background-color: #6EC59E;
+        border-radius: 2px;
+        margin-bottom: 8px;
+        margin-right: 10px;
+    }
+    .footer .logo img{width: 50%;}
+    .footer .some, .footer .social
+    {margin-top: 30px;}
+}
+@media (max-width: 411px) {
+    .footer .some .info {padding-left: 60px;}
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+    .footer .minline:before
+    {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 4px;
+    background-color: #6EC59E;
+    border-radius: 2px;
+    margin-bottom: 8px;
+    margin-right: 15px;
+    }
+    .footer .some, .footer .social{margin-top: 20px;}
+    .footer .some .info {padding-left: 70px;}
+    .footer .logo img{width: 40%;}
+}
+/* End Footer */
+/*************************************************************************/
+/************************** End Home Page ********************************/
+/*************************************************************************/
+/*************************************************************************/
+/************************** Start About Page *****************************/
+/*************************************************************************/
+.head-s .navbar .active{color: #6EC59E;}
+.our-history{padding-top: 100px; padding-bottom: 30px;}
+.our-history .high .offer{margin-bottom: 20px;}
+.our-history .high .badde p{font-size: 16.3px;}
+.our-history .high .badde p span{color: #4992CF; font-weight: 600;}
+.our-history .bottom h3{margin-bottom: 20px;}
+.our-history .bottom p{font-size: 16.3px;}
+/*************************************************************************/
+/************************** End About Page *******************************/
+/*************************************************************************/
+/*************************************************************************/
+/************************** Start Services Page **************************/
+/*************************************************************************/
+.detalies
+{
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.detalies .back
+{
+    position: absolute;
+    right: 0;
+    top: 0;    
+}
+.detalies .offer{margin-bottom: 30px; padding: 0;}
+.detalies .development{margin-bottom: 20px;}
+.detalies .development img
+{
+    align-items: center;
+}
+.detalies .subscrip{margin-top: 20px; margin-bottom: 50px;}
+.detalies .subscrip p{font-size: 16.5px;}
+.detalies .subscrip .sla
+{
+    background-color: #FFF;
+    box-shadow: 3px 3px 10px rgb(199, 196, 196);
+    border-radius: 15px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+.detalies .subscrip .sla h4
+{
+    text-align: center;
+    color: #6EC59E;
+    margin-bottom: 15px;
+}
+.detalies .subscrip .sla ul{margin-bottom: 20px;; color: #0C1E39;}
+.detalies .subscrip .sla ul li{margin-bottom: 10px; font-size: 17px;}
+.detalies .subscrip .sla .end button
+{
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.detalies .subscrip .sla .end{text-align: center;}
+.detalies .subscrip .sla .end button .arro{margin-left: 20px;}
+.detalies .plans h4{color: #0C1E39;}
+.detalies .plans .connect
+{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.detalies .plans h5{text-decoration: underline; color: #0C1E39;}
+@media (max-width: 411px) {
+    .detalies p{font-size: 15px;}
+    .detalies h4
+    {
+        font-size: 18px;
+    }
+    .detalies .line:before
+    {
+        content: '';
+        display: inline-block;
+        width: 30px;
+        height: 4px;
+        background-color: #6EC59E;
+        border-radius: 2px;
+        margin-bottom: 4px;
+        margin-right: 15px;
+    }
+}
+/*************************************************************************/
+/************************** End Services Page ****************************/
+/*************************************************************************/
+/********************/
 /* Start Fram Work */
+/********************/
 .p-style 
 {
     color: #0C1E39;
 }
-
 .line:before
 {
     content: '';
@@ -151,6 +501,90 @@ body {
     height: 4px;
     background-color: #6EC59E;
     border-radius: 2px;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     margin-right: 35px;
+}
+.minline:before
+{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 4px;
+    background-color: #6EC59E;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    margin-right: 35px;
+}
+.minline-sla:before
+{
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 4px;
+    background-color: #6EC59E;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    margin-right: 20px;
+}
+button
+{
+    background-image: linear-gradient(#6EC59E, #4992CF);
+    border-radius: 20px;
+    border: none;
+}
+.heeaad{margin-bottom: 30px;}
+.heeaad span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #4992CF;
+}
+.heeaad h4 {margin-bottom: 20px; color: #0C1E39;}
+.block
+{
+    /* border: 1px solid rgb(215, 218, 223); */
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #FFF;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 8px rgb(199, 196, 196);
+}
+.detal
+{
+    text-align: center;
+    /* margin-top: 10px; */
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0C1E39;
+}
+li{list-style: none;}
+.responsive-img
+{
+    max-width: 100%;
+    height: auto;
+}
+a {color: #FFF;}
+.active
+{
+    color: #6EC59E;
+}
+.offer{color: #0C1E39;}
+/* belong to About and Services Pages foe scroll navbar */
+.header-s
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999;
+}
+.head-s
+{
+    background-color: #0C1E39;
+    height: auto;
+    position: relative;
+}
+.head-s .navbar-brand img
+{
+    width: 40%;
 }
