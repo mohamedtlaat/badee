@@ -1,3 +1,39 @@
-$('html').niceScroll({
-    cursorcolor: '#4992CF'
+// $('html').niceScroll({
+//     cursorcolor: '#4992CF'
+// });
+// $(document).ready(function(){
+//     $(".owl-carousel").owlCarousel({
+//         items:3,
+//         autoplay: true,
+//         smartSpeed: 700,
+//         loop: true
+//     });
+//   });
+  var owl = $('.owl-carousel');
+owl.owlCarousel({
+    loop:true,
+    nav:true,
+    margin:10,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },            
+        960:{
+            items:3
+        },
+        1200:{
+            items:3
+        }
+    }
+});
+owl.on('mousewheel', '.owl-stage', function (e) {
+    if (e.deltaY>0) {
+        owl.trigger('next.owl');
+    } else {
+        owl.trigger('prev.owl');
+    }
+    e.preventDefault();
 });

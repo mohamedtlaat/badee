@@ -260,6 +260,41 @@ body {position: relative;}
     background-color: #F2F2F2;
 }
 .our-team p{color: #0C1E39; font-size: 17px;}
+.our-team .caro .team
+{
+    /* padding: 10px; */
+    margin: 10px;
+    position: relative;
+    background-image: linear-gradient(#6EC59E, #4992CF);
+    border-radius: 10px;
+}
+.our-team .caro .team img{border-radius: 10px;}
+.our-team .caro .team .infoo
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+.our-team .caro .team .infoo p,
+.our-team .caro .team .infoo h5
+{
+    color: #FFF;
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .our-team .caro .team .infoo
+    .our-team .caro .team .infoo p
+    {
+        font-size: .4rem;
+    }
+    .our-team .caro .team .infoo h5
+    {
+        font-size: .9rem;
+    }
+}
 /********************** End Our Team ****************/
 /********************** Start Our client ***************/
 .our-client
