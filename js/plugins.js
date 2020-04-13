@@ -2,7 +2,6 @@
 //     cursorcolor: '#4992CF'
 ///////////////  Carousel //////////////////
 $(document).ready(function() {
-
     var team = $("#team");
     var client = $("#client");
     team.owlCarousel({
@@ -26,7 +25,7 @@ $(document).ready(function() {
         autoplay:true,
         autoplayTimeout:3000,
         nav: true,
-        navText: ["<img src='images/Group-2.png' class='img-fluid'>", "<img src='images/Group-1.png' class='img-fluid'>"]
+        navText: ["<img src='images/Group-2.png' class='img-fluid'>", "<img src='images/Group-1.png' class='img-fluid'>"],
     });
     client.owlCarousel({
         loop:true,
@@ -49,7 +48,7 @@ $(document).ready(function() {
         autoplay:true,
         autoplayTimeout:2000,
         nav: true,
-        navText: ["<img src='images/Group-2.png' class='img-fluid'>", "<img src='images/Group-1.png' class='img-fluid'>"]
+        navText: ["<img src='images/Group-2.png' class='img-fluid'>", "<img src='images/Group-1.png' class='img-fluid'>"],
     });
 }) 
 /***************************************
@@ -59,7 +58,3 @@ $(function()
 {
     new WOW().init();
 });
-$(document).ready(function(){
-    
-    $(".navbar").fadeIn(10000);
-})
