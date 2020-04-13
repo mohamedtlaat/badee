@@ -1,39 +1,65 @@
 // $('html').niceScroll({
 //     cursorcolor: '#4992CF'
-// });
-// $(document).ready(function(){
-//     $(".owl-carousel").owlCarousel({
-//         items:3,
-//         autoplay: true,
-//         smartSpeed: 700,
-//         loop: true
-//     });
-//   });
-  var owl = $('.owl-carousel');
-owl.owlCarousel({
-    loop:true,
-    nav:true,
-    margin:10,
-    responsive:{
-        0:{
-            items:1
+///////////////  Carousel //////////////////
+$(document).ready(function() {
+
+    var team = $("#team");
+    var client = $("#client");
+    team.owlCarousel({
+        loop:true,
+        nav:true,
+        margin:10,
+        responsive:{
+            0:{
+                items:1
+            },
+            412:{
+                items:2
+            },            
+            768:{
+                items:3
+            },
+            1200:{
+                items:3
+            }
         },
-        600:{
-            items:2
-        },            
-        960:{
-            items:3
+        autoplay:true,
+        autoplayTimeout:3000,
+        nav: true,
+        navText: ["<img src='images/Group-2.png' class='img-fluid'>", "<img src='images/Group-1.png' class='img-fluid'>"]
+    });
+    client.owlCarousel({
+        loop:true,
+        nav:true,
+        margin:10,
+        responsive:{
+            0:{
+                items:3
+            },
+            412:{
+                items:4
+            },            
+            768:{
+                items:5
+            },
+            1200:{
+                items:5
+            }
         },
-        1200:{
-            items:3
-        }
-    }
+        autoplay:true,
+        autoplayTimeout:2000,
+        nav: true,
+        navText: ["<img src='images/Group-2.png' class='img-fluid'>", "<img src='images/Group-1.png' class='img-fluid'>"]
+    });
+}) 
+/***************************************
+                Animated
+****************************************/
+$(function()
+{
+    new WOW().init();
 });
-owl.on('mousewheel', '.owl-stage', function (e) {
-    if (e.deltaY>0) {
-        owl.trigger('next.owl');
-    } else {
-        owl.trigger('prev.owl');
-    }
-    e.preventDefault();
-});
+$(document).ready(function(){
+    
+    $(".navbar").fadeIn(10000);
+})

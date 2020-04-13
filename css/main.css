@@ -1,5 +1,8 @@
 
-body {position: relative;}
+body {
+    position: relative;
+    height: auto;
+}
 /*************************************************************************/
 /************************** End Home Page ********************************/
 /*************************************************************************/
@@ -46,9 +49,6 @@ body {position: relative;}
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 0px 20px 20px 0px;
-    /* position: absolute; */
-    /* top: 50%; */
-    /* z-index: 999; */
 } 
 .head .box .row .vision h4
 {
@@ -117,18 +117,6 @@ body {position: relative;}
 }
 .our-services .product .bod{padding-left: 25px;}
 @media (max-width: 410px) {
-    .our-services .our .offer h3{font-size: 18px;}
-    .our-services .our .offer .line:before
-    {
-        content: '';
-        display: inline-block;
-        width: 35px;
-        height: 4px;
-        background-color: #6EC59E;
-        border-radius: 2px;
-        margin-bottom: 8px;
-        margin-right: 20px;
-    }
     .our-services .our h4{font-size: 18px;}
     .our-services .our p{font-size: 15px;}
     .our-services .product .pro .bod .kind h5{font-size: 12px;}
@@ -156,7 +144,7 @@ body {position: relative;}
 }
 /************** End Our Product *************/
 
-/************** End Our Work *************/
+/************** Start Our Work *************/
 .our-work
 {
     margin-top: 50px;
@@ -223,22 +211,7 @@ body {position: relative;}
         width: 25px;
         padding-left: 10px;
     }
-    .our-work .number .step a
-    {
-        font-size: 10px;
-    }
-    .our-work .offer h3{font-size: 18px;}
-    .our-work .line:before
-    {
-        content: '';
-        display: inline-block;
-        width: 30px;
-        height: 4px;
-        background-color: #6EC59E;
-        border-radius: 2px;
-        margin-bottom: 4px;
-        margin-right: 15px;
-    }
+    .our-work .number .step a {font-size: 10px;}
     .our-work .row .offer{margin-bottom: 10%;}
 }
 @media (min-width: 411px) and (max-width: 768px) {
@@ -247,10 +220,7 @@ body {position: relative;}
         width: 40px;
         padding-left: 15px;
     }
-    .our-work .number .step a
-    {
-        font-size: 15px;
-    }
+    .our-work .number .step a {font-size: 15px;}
 }
 /********************** Start Our Team ***************/
 .our-team
@@ -262,7 +232,6 @@ body {position: relative;}
 .our-team p{color: #0C1E39; font-size: 17px;}
 .our-team .caro .team
 {
-    /* padding: 10px; */
     margin: 10px;
     position: relative;
     background-image: linear-gradient(#6EC59E, #4992CF);
@@ -284,16 +253,20 @@ body {position: relative;}
     max-width: 100%;
     height: auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 410px) {
+    .our-team p{font-size: 16px;}
     .our-team .caro .team .infoo
     .our-team .caro .team .infoo p
-    {
-        font-size: .4rem;
-    }
+    {font-size: .4rem;}
     .our-team .caro .team .infoo h5
-    {
-        font-size: .9rem;
-    }
+    {font-size: .9rem;}
+}
+@media (min-width: 411px) and (max-width: 768px) {
+    .our-team p{font-size: 17px;}
+    .our-team .caro .team .infoo
+    .our-team .caro .team .infoo p
+    {font-size: .4rem;}
+    .our-team .caro .team .infoo h5 {font-size: .9rem;}
 }
 /********************** End Our Team ****************/
 /********************** Start Our client ***************/
@@ -342,11 +315,7 @@ body {position: relative;}
     font-size: large;
     border-radius: 15px;
 }
-.form form select
-{
-    height: 70px;
-    margin-bottom: 20px;
-}
+.form form select { height: 70px; margin-bottom: 20px;}
 .form form button .arro{margin-left: 20px;}
 @media (max-width: 767px) {
     .form .offer p {font-size: 18px;}
@@ -360,7 +329,6 @@ body {position: relative;}
         font-size: 15px;
     }
 }
-
 /********************** End together ***************/
 
 /***************** Start footer ********************/
@@ -424,13 +392,10 @@ body {position: relative;}
     .footer .some .info {padding-left: 70px;}
     .footer .logo img{width: 40%;}
 }
-/* End Footer */
-/*************************************************************************/
+/****************** End Footer ****************/
 /************************** End Home Page ********************************/
-/*************************************************************************/
-/*************************************************************************/
+
 /************************** Start About Page *****************************/
-/*************************************************************************/
 .head-s .navbar .active{color: #6EC59E;}
 .our-history{padding-top: 100px; padding-bottom: 30px;}
 .our-history .high .offer{margin-bottom: 20px;}
@@ -438,12 +403,9 @@ body {position: relative;}
 .our-history .high .badde p span{color: #4992CF; font-weight: 600;}
 .our-history .bottom h3{margin-bottom: 20px;}
 .our-history .bottom p{font-size: 16.3px;}
-/*************************************************************************/
 /************************** End About Page *******************************/
-/*************************************************************************/
-/*************************************************************************/
+
 /************************** Start Services Page **************************/
-/*************************************************************************/
 .detalies
 {
     position: relative;
@@ -518,16 +480,87 @@ body {position: relative;}
         margin-right: 15px;
     }
 }
-/*************************************************************************/
 /************************** End Services Page ****************************/
-/*************************************************************************/
-/********************/
-/* Start Fram Work */
-/********************/
-.p-style 
-{
-    color: #0C1E39;
+
+/************** Team and Client Carousel ***************/
+.owl-carousel .owl-nav button.owl-prev {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    position: absolute;
+    top: 40%;
+    left: -8%;
+    background-image: linear-gradient(#6EC59E, #4992CF);
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
 }
+.owl-carousel .owl-nav button.owl-next
+{
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    position: absolute;
+    top: 40%;
+    right: -8%;
+    background-image: linear-gradient(#6EC59E, #4992CF);
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
+}
+@media (max-width: 411px) {
+    .owl-carousel .owl-nav button.owl-prev {
+        top: 41%;
+        left: -6%;
+        background-image: linear-gradient(#6EC59E, #4992CF);
+        border-radius: 5px;
+        border: none;
+        width: 30px;
+        height: 30px;
+    }
+    .owl-carousel .owl-nav button.owl-next
+    {
+        top: 41%;
+        right: -6%;
+        background-image: linear-gradient(#6EC59E, #4992CF);
+        border-radius: 5px;
+        border: none;
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (min-width: 412px) and (max-width: 768px) {
+    .owl-carousel .owl-nav button.owl-prev {
+        top: 41%;
+        left: -6%;
+        background-image: linear-gradient(#6EC59E, #4992CF);
+        border-radius: 5px;
+        border: none;
+        width: 30px;
+        height: 30px;
+    }
+    .owl-carousel .owl-nav button.owl-next
+    {
+        top: 41%;
+        right: -6%;
+        background-image: linear-gradient(#6EC59E, #4992CF);
+        border-radius: 5px;
+        border: none;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/************************** Start Fram Work ************************/
+.p-style {color: #0C1E39;}
 .line:before
 {
     content: '';
@@ -566,6 +599,7 @@ button
     background-image: linear-gradient(#6EC59E, #4992CF);
     border-radius: 20px;
     border: none;
+    outline: none;
 }
 .heeaad{margin-bottom: 30px;}
 .heeaad span {
@@ -576,7 +610,6 @@ button
 .heeaad h4 {margin-bottom: 20px; color: #0C1E39;}
 .block
 {
-    /* border: 1px solid rgb(215, 218, 223); */
     padding: 15px;
     border-radius: 10px;
     background-color: #FFF;
@@ -593,18 +626,41 @@ button
     color: #0C1E39;
 }
 li{list-style: none;}
-.responsive-img
-{
-    max-width: 100%;
-    height: auto;
-}
+.responsive-img{max-width: 100%; height: auto;}
 a {color: #FFF;}
-.active
-{
-    color: #6EC59E;
-}
+.active{color: #6EC59E;}
 .offer{color: #0C1E39;}
-/* belong to About and Services Pages foe scroll navbar */
+@media (max-width: 410px) {
+    .offer h4{font-size: 20px;}
+    .offer h3{font-size: 18px;}
+    .line:before
+    {
+        content: '';
+        display: inline-block;
+        width: 30px;
+        height: 4px;
+        background-color: #6EC59E;
+        border-radius: 2px;
+        margin-bottom: 4px;
+        margin-right: 15px;
+    }
+}
+@media (min-width: 411px) and (max-width: 768) {
+    .our-team .offer h4{font-size: 20px;}
+    .our-team .offer h3{font-size: 22px;}
+    .our-team .line:before
+    {
+        content: '';
+        display: inline-block;
+        width: 30px;
+        height: 4px;
+        background-color: #6EC59E;
+        border-radius: 2px;
+        margin-bottom: 4px;
+        margin-right: 15px;
+    }
+}
+/* belong to About and Services Pages for scroll navbar */
 .header-s
 {
     position: fixed;
@@ -619,7 +675,4 @@ a {color: #FFF;}
     height: auto;
     position: relative;
 }
-.head-s .navbar-brand img
-{
-    width: 40%;
-}
+.head-s .navbar-brand img{width: 40%;}
