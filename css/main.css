@@ -186,7 +186,7 @@ body {
 }
 @media (min-width: 769px) and (max-width: 1200px) {
   .our-services .our .words .second {
-    margin-bottom: 45px;
+    /* margin-bottom: 45px; */
     font-size: 18px;
   }
   .our-services .our .words .third {
