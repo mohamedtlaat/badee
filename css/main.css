@@ -108,6 +108,7 @@ body {position: relative;}
 .our-services .our .words .second{font-size: 17.5px;}
 .our-services .our .words .third{font-size: 17.5px;}
 .our-services .our button .arro{margin-left: 15px;}
+.our-services .our button a{text-decoration: none;}
 .our-services .product h3{margin-bottom: 4%;}
 .our-services .product .bod
 {
@@ -119,6 +120,7 @@ body {position: relative;}
 @media (max-width: 410px) {
     .our-services .our h4{font-size: 18px;}
     .our-services .our p{font-size: 15px;}
+    .our-services .our button{width: 60%;}
     .our-services .product .pro .bod .kind h5{font-size: 12px;}
     .our-services .product h3{font-size: 20px;}
 }
@@ -461,6 +463,14 @@ body {position: relative;}
     margin-top: 20px;
     margin-bottom: 25px;
 }
+.detalies .plans .more{display: none;}
+.detalies .plans .see 
+{
+    color: #6EC59E;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
 .detalies .plans h5{text-decoration: underline; color: #0C1E39;}
 @media (max-width: 411px) {
     .detalies p{font-size: 15px;}
@@ -515,6 +525,13 @@ body {position: relative;}
     outline: none;
     width: 60px;
     height: 60px;
+}
+.owl-carousel .owl-item img 
+{
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 @media (max-width: 411px) {
     .owl-carousel .owl-nav button.owl-prev {
@@ -627,7 +644,7 @@ button
 }
 li{list-style: none;}
 .responsive-img{max-width: 100%; height: auto;}
-a {color: #FFF;}
+a {color: #FFF; text-decoration: none;}
 .active{color: #6EC59E;}
 .offer{color: #0C1E39;}
 @media (max-width: 410px) {
@@ -676,3 +693,37 @@ a {color: #FFF;}
     position: relative;
 }
 .head-s .navbar-brand img{width: 40%;}
+
+
+.popup
+{
+    background: rgba(0, 0, 0, 0.46);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.popup .popup-contant
+{
+    height: auto;
+    width: 40%;
+    background: #FFF;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+.popup .popup-contant .offer{margin-bottom: 30px; margin-top: 30px;}
+.popup .popup-contant .offer h3{color: #4992CF; margin-bottom: 20px;}
+.popup .popup-contant .offer h5{font-weight: 700;}
+.popup .popup-contant form input,
+.popup .popup-contant form textarea{margin-bottom: 20px; background: #F2F2F2; border-radius: 15px;}
+.popup .popup-contant .offer .row {margin-top: 30px;}
+.popup .popup-contant .offer .row i
+{
+    color: #6EC59E;
+    margin-right: 20px;
+}
+.popup .popup-contant .offer .row p{font-weight: 600; font-size: 20px;}

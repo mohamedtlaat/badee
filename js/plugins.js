@@ -36,7 +36,7 @@ $(document).ready(function() {
                 items:3
             },
             412:{
-                items:4
+                items:3
             },            
             768:{
                 items:5
@@ -58,3 +58,22 @@ $(function()
 {
     new WOW().init();
 });
+/*****************************************************
+                See more in Services Page
+******************************************************/
+$(document).ready(function() {
+    $(".see").click(function() {
+        $(this).prev().toggle();
+        if($(this).text() == 'See more') {
+            $(this).text('See less');
+        } else {
+            $(this).text('See more');
+        }
+    });
+});
+/*****************************************************
+                popup
+******************************************************/
+document.getElementById("#goo").addEventListener("click", function() {
+    document.querySelector(".popup").style.display = "flex";
+})
