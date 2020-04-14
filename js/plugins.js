@@ -13,7 +13,7 @@ $(document).ready(function() {
                 items:1
             },
             412:{
-                items:2
+                items:1
             },            
             768:{
                 items:3
@@ -50,6 +50,11 @@ $(document).ready(function() {
         nav: true,
         navText: ["<img src='images/Group-2.png' class='img-fluid'>", "<img src='images/Group-1.png' class='img-fluid'>"],
     });
+
+    $('#exampleModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+      })
+    
 }) 
 /***************************************
                 Animated
@@ -77,3 +82,7 @@ $(document).ready(function() {
 document.getElementById("#goo").addEventListener("click", function() {
     document.querySelector(".popup").style.display = "flex";
 })
+
+$('#exampleModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
