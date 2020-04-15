@@ -1,5 +1,3 @@
-// $('html').niceScroll({
-//     cursorcolor: '#4992CF'
 ///////////////  Carousel //////////////////
 $(document).ready(function() {
     var team = $("#team");
@@ -57,7 +55,7 @@ $(document).ready(function() {
     
 }) 
 /***************************************
-                Animated
+                Animated WOW
 ****************************************/
 $(function()
 {
@@ -79,10 +77,6 @@ $(document).ready(function() {
 /*****************************************************
                 popup
 ******************************************************/
-// document.getElementById("#goo").addEventListener("click", function() {
-//     document.querySelector(".popup").style.display = "flex";
-// })
-
 $('#exampleModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus')
   })
