@@ -1,0 +1,239 @@
+/************************** Fram Work of Offer ************************/
+@media (max-width: 410px) {
+    .offer h4 {font-size: 20px;}
+    .offer h3 {font-size: 18px;}
+    .line:before {
+      content: "";
+      display: inline-block;
+      width: 30px;
+      height: 4px;
+      background-color: #6ec59e;
+      border-radius: 2px;
+      margin-bottom: 4px;
+      margin-right: 15px;
+    }
+  }
+  @media (min-width: 411px) and (max-width: 768) {
+    .our-team .offer h4 {font-size: 20px;}
+    .our-team .offer h3 {font-size: 22px;}
+    .our-team .line:before {
+      content: "";
+      display: inline-block;
+      width: 30px;
+      height: 4px;
+      background-color: #6ec59e;
+      border-radius: 2px;
+      margin-bottom: 4px;
+      margin-right: 15px;
+    }
+  }
+  /* header */
+  @media (max-width: 991px) {
+    .head .intro .row .left h3 {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .head .intro .row .left h3 span {font-size: 30px;}
+    .head .intro .row .left p {font-size: 16px;}
+    .mr-byme {margin-left: 0px;}
+  }
+/*************** Start Our Product *****************/
+  @media (max-width: 410px) {
+    .our-services .our h4 {font-size: 18px;}
+    .our-services .our p {font-size: 15px;}
+    .our-services .our button { width: 60%;}
+    .our-services .product .pro .bod .kind h5 {font-size: 12px;}
+    .our-services .product h3 {font-size: 20px;}
+  }
+  @media (min-width: 411px) and (max-width: 768px) {
+    .our-services .our h4 {
+      font-size: 17px;
+      font-weight: bold;
+    }
+    .our-services .our .words .second {font-size: 16px;}
+    .our-services .our .words .first {
+      font-size: 14px;
+      margin-bottom: 7px;
+    }
+    .our-services .our .words .third {font-size: 16px;}
+    .our-services .our p {font-size: 16px;}
+    .our-services .product .pro .bod .kind h5 {
+      font-size: 15px;
+    }
+  }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .our-services .our .words .second {font-size: 18px;}
+    .our-services .our .words .third {
+      margin-bottom: 20px;
+      font-size: 18px;
+    }
+  }
+  /************** Start Our Work *************/
+  @media (max-width: 410px) {
+    .our-work .number .step {
+      width: 25px;
+      padding-left: 10px;
+    }
+    .our-work .number .step a {font-size: 10px;}
+    .our-work .row .offer {margin-bottom: 10%;}
+  }
+  @media (min-width: 411px) and (max-width: 768px) {
+    .our-work .number .step {
+      width: 40px;
+      padding-left: 15px;
+    }
+    .our-work .number .step a {font-size: 15px;}
+  }
+  /********************** Start Our Team ***************/
+  @media (max-width: 410px) {
+    .our-team p {font-size: 16px;}
+    .our-team .caro .team .infoo .our-team .caro .team .infoo p {
+      font-size: 0.4rem;
+    }
+    .our-team .caro .team .infoo h5 {font-size: 0.9rem;}
+  }
+  @media (min-width: 411px) and (max-width: 768px) {
+    .our-team p {font-size: 17px;}
+    .our-team .caro .team .infoo .our-team .caro .team .infoo p {
+      font-size: 0.4rem;
+    }
+    .our-team .caro .team .infoo h5 {font-size: 0.9rem;}
+  }
+/********************** Start together ***************/
+  @media (max-width: 767px) {
+    .form .offer p {font-size: 18px;}
+    .form .offer h3 {font-size: 25px;}
+    .form form button {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 15px;
+    }
+  }
+/***************** Start footer ********************/
+@media (max-width: 410px) {
+    .footer .minline:before {
+      content: "";
+      display: inline-block;
+      width: 15px;
+      height: 4px;
+      background-color: #6ec59e;
+      border-radius: 2px;
+      margin-bottom: 8px;
+      margin-right: 10px;
+    }
+    .footer .logo img {width: 50%;}
+    .footer .some,
+    .footer .social {margin-top: 30px;}
+  }
+  @media (max-width: 411px) {
+    .footer .some .info {padding-left: 60px;}
+  }
+  
+  @media (min-width: 411px) and (max-width: 767px) {
+    .footer .minline:before {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 4px;
+      background-color: #6ec59e;
+      border-radius: 2px;
+      margin-bottom: 8px;
+      margin-right: 15px;
+    }
+    .footer .some,
+    .footer .social {margin-top: 20px;}
+    .footer .some .info {padding-left: 70px;}
+    .footer .logo img {width: 40%;}
+  }
+/************************** Start Services Page **************************/
+  @media (max-width: 411px) {
+    .detalies p {font-size: 15px;}
+    .detalies h4 {font-size: 18px;}
+    .detalies .line:before {
+      content: "";
+      display: inline-block;
+      width: 30px;
+      height: 4px;
+      background-color: #6ec59e;
+      border-radius: 2px;
+      margin-bottom: 4px;
+      margin-right: 15px;
+    }
+  }
+  /** Media **/
+@media (max-width: 575.98px) {
+    .make-deal .modal-content {
+      width: 90%;
+      margin: auto;
+    }
+  }
+  @media (min-width: 360px)  {
+      .box p {
+          font-size: 14px;
+          margin-bottom: 10px;
+      }
+      .box {border-radius: 1px;}
+      .our-services .our {padding-top: 370px;}
+  } 
+  @media (min-width: 576px)  {
+      .box {width: 100%;}
+      .our-services .our {padding-top: 350px;}
+  } 
+  @media (min-width: 768px)  {
+      .our-services .our {padding-top: 260px;}
+  } 
+  @media (min-width: 992px)  {
+      .our-services .our {padding-top: 200px;}
+  } 
+  @media (min-width: 1200px)  {
+      .box p {font-size: 16px;}
+      .box {
+          width: auto;
+          border-radius: 0 10px 10px 0;
+          padding-left: 100px;
+      }
+      .our-services .our {padding-top: 170px;}
+  } 
+/************** Team and Client Carousel ***************/
+  @media (max-width: 411px) {
+    .owl-carousel .owl-nav button.owl-prev {
+      top: 41%;
+      left: -6%;
+      background-image: linear-gradient(#6ec59e, #4992cf);
+      border-radius: 5px;
+      border: none;
+      width: 30px;
+      height: 30px;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+      top: 41%;
+      right: -6%;
+      background-image: linear-gradient(#6ec59e, #4992cf);
+      border-radius: 5px;
+      border: none;
+      width: 30px;
+      height: 30px;
+    }
+  }
+  @media (min-width: 412px) and (max-width: 768px) {
+    .owl-carousel .owl-nav button.owl-prev {
+      top: 41%;
+      left: -6%;
+      background-image: linear-gradient(#6ec59e, #4992cf);
+      border-radius: 5px;
+      border: none;
+      width: 30px;
+      height: 30px;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+      top: 41%;
+      right: -6%;
+      background-image: linear-gradient(#6ec59e, #4992cf);
+      border-radius: 5px;
+      border: none;
+      width: 30px;
+      height: 30px;
+    }
+  }

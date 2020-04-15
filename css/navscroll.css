@@ -1,0 +1,16 @@
+/* belong to About and Services Pages for scroll navbar */
+.header-s {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999;
+  }
+  .head-s {
+    background-color: #0c1e39;
+    height: auto;
+    position: relative;
+  }
+  .head-s .navbar-brand img {
+    width: 40%;
+  }

@@ -1,0 +1,15 @@
+/************************** Start About Page *****************************/
+.head-s .navbar .active {color: #6ec59e;}
+  .our-history {
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+  .our-history .high .offer {margin-bottom: 20px;}
+  .our-history .high .badde p {font-size: 16.3px;}
+  .our-history .high .badde p span {
+    color: #4992cf;
+    font-weight: 600;
+  }
+  .our-history .bottom h3 {margin-bottom: 20px;}
+  .our-history .bottom p {font-size: 16.3px;}
+  /************************** End About Page *******************************/

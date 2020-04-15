@@ -1,0 +1,87 @@
+/************************** Start Services Page **************************/
+.detalies {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+  .detalies .back {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .detalies .offer {
+    margin-bottom: 30px;
+    padding: 0;
+  }
+  .detalies .development {
+    margin-bottom: 20px;
+  }
+  .detalies .development img {
+    align-items: center;
+  }
+  .detalies .subscrip {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .detalies .subscrip p {
+    font-size: 16.5px;
+  }
+  .detalies .subscrip .sla {
+    background-color: #fff;
+    box-shadow: 3px 3px 10px rgb(199, 196, 196);
+    border-radius: 15px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+  }
+  .detalies .subscrip .sla h4 {
+    text-align: center;
+    color: #6ec59e;
+    margin-bottom: 15px;
+  }
+  .detalies .subscrip .sla ul {
+    margin-bottom: 20px;
+    color: #0c1e39;
+  }
+  .detalies .subscrip .sla ul li {
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+  .detalies .subscrip .sla .end button {
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: none;
+  }
+  .detalies .subscrip .sla .end {
+    text-align: center;
+  }
+  .detalies .subscrip .sla .end button .arro {
+    margin-left: 20px;
+  }
+  .detalies .plans h4 {
+    color: #0c1e39;
+  }
+  .detalies .plans .connect {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  .detalies .plans .more {
+    display: none;
+  }
+  .detalies .plans .see {
+    color: #6ec59e;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .detalies .plans h5 {
+    text-decoration: underline;
+    color: #0c1e39;
+  }
+
+  /************************** End Services Page ****************************/

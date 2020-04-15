@@ -1,0 +1,29 @@
+/** Pop Up **/
+.make-deal .modal-content {border-radius: 2%;}
+  
+.make-deal .modal-title {margin-bottom: 15px;}
+  
+.make-deal .minline:before {
+    width: 55px;
+    margin-right: 20px;
+}
+.make-deal .modal-footer .minline {margin-bottom: 15px;}
+.make-deal .phone-modal::before {
+    font-family: FontAwesome;
+    font-weight: 900;
+    color: #6ec59e;
+    margin-right: 10px;
+    font-size: 22px;
+    content: "\f095";
+}
+.make-deal .phone-modal.second::before {content: "\f232";}
+.make-deal .modal-body .form-control {
+    border: none;
+    background-color: #f2f2f2;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.make-deal .modal-body img.arro {
+    height: 18px;
+    margin-left: 15px;
+}

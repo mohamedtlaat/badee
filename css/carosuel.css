@@ -1,0 +1,40 @@
+
+/************** Team and Client Carousel ***************/
+.owl-carousel .owl-nav button.owl-prev {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    position: absolute;
+    top: 40%;
+    left: -8%;
+    background-image: linear-gradient(#6ec59e, #4992cf);
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
+}
+.owl-carousel .owl-nav button.owl-next {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    position: absolute;
+    top: 40%;
+    right: -8%;
+    background-image: linear-gradient(#6ec59e, #4992cf);
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
+}
+.owl-carousel .owl-item .team img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}

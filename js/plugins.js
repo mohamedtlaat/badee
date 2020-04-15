@@ -79,9 +79,9 @@ $(document).ready(function() {
 /*****************************************************
                 popup
 ******************************************************/
-document.getElementById("#goo").addEventListener("click", function() {
-    document.querySelector(".popup").style.display = "flex";
-})
+// document.getElementById("#goo").addEventListener("click", function() {
+//     document.querySelector(".popup").style.display = "flex";
+// })
 
 $('#exampleModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus')

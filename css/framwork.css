@@ -1,0 +1,89 @@
+/************************** Start Fram Work ************************/
+.p-style {color: #0c1e39;}
+  .line:before {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 4px;
+    background-color: #6ec59e;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    margin-right: 35px;
+  }
+  .minline:before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 4px;
+    background-color: #6ec59e;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    margin-right: 35px;
+  }
+  .minline-sla:before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 4px;
+    background-color: #6ec59e;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    margin-right: 20px;
+  }
+  button,
+  a.my-btn {
+    background-image: linear-gradient(#6ec59e, #4992cf);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+  }
+  a.my-btn {border-radius: 8px;}
+  .heeaad {margin-bottom: 30px;}
+  .heeaad span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #4992cf;
+  }
+  .heeaad h4 {
+    margin-bottom: 20px;
+    color: #0c1e39;
+  }
+  .block {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 8px rgb(199, 196, 196);
+    height: 100%;
+  }
+  .detal {
+    text-align: center;
+    /* margin-top: 10px; */
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0c1e39;
+  }
+  li {list-style: none;}
+  .responsive-img {
+    max-width: 100%;
+    height: auto;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .active {color: #6ec59e;}
+  .offer {color: #0c1e39;}
+
+/** Colors **/
+.purple {color: #6c63ff;}
+.gray {color: #f2f2f2;}
+.white {color: #fff;}
+.green {color: #6ec59e;}
+.blue {color: #4992cf;}
+.dark-blue {color: #0c1e39;}
+  
+/** Border **/
+.no-border {border: none;}
+.mr-bt {margin-bottom: 15px;}
